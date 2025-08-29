@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Arima:wght@100..700&family=Bebas+Neue&family=Clicker+Script&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Matemasie&family=Nerko+One&family=New+Amsterdam&family=Pacifico&family=Poppins:ital,wght@0,100;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a href="#home"><div class="go-top"><i class="fa-solid fa-chevron-up"></i></div></a>
+    <header>
+      <div class="navBar">
+        <div class="logo">
+          <img src="homeCart-logo.png" alt="" />
+        </div>
+        <div class="menu">
+        <div class="menu-toggle "><button><i class="fa-solid fa-bars"></i></button></div>
+
+        <div class="searchSection">
+          <input type="text" placeholder="Search to find a item..." />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        </div>
+        <div class="profile">
+          <button class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+
+          <span class="hover-text">Checkout your cart</span>
+          <span class="notification">3</span>
+          <div class="profile-img">
+            <img src="profile.png" alt="" />
+          </div>
+          <button><i class="fa-solid fa-caret-down"></i></button>
+
+          <div class="dropDown-content">
+            <ul>
+              <li><a href="">Account</a></li>
+              <li><a href="#help">Help</a></li>
+              <li><a href="">Setting</a></li>
+              <hr />
+              <li><a href="">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-2">
+        <ul>
+          <a href="#home"><li>Home</li></a>
+          <a href="#grocery"><li>Grocery items</li></a>
+          <a href="#Store"><li>Store</li></a>
+          <a href="#offers"><li>Offers</li></a>
+          <a href="#help"><li>Help</li></a>
+        </ul>
+      </div>
+    </header>
+<!-- <===================== home ====================> -->
+    <section id="home">
+      <div class="home-section">
+        <div class="home-content">
+          <h1>Super Market</h1>
+          <h2>For Grocery Shopping</h2>
+
+          <h4>Fresh groceries delivered to your doorstep in under 2 hours</h4>
+
+          <p>
+            Welcome to your one-stop online grocery destination! Browse
+            thousands of fresh produce, pantry essentials, dairy products, and
+            household items from trusted local suppliers and premium brands.
+          </p>
+
+          <div class="shop-now">
+            <a href="#Store"><button>Shop now</button></a>
+          </div>
+        </div>
+
+        <div class="home-img">
+          <div class="circle"></div>
+          <img src="grocery.png" alt="" />
+        </div>
+      </div>
+    </section>
+<!-- <===================== grocery ====================> -->
+    <section id="grocery">
+      <h1 class="heading">Grocery Items</h1>
+      <div class="grocery-item-section">
+        <div class="grocery-items">
+          <img src="fruits.jpeg" alt="" />
+          <span class="desc">Fruits</span>
+        </div>
+
+        <div class="grocery-items">
+          <img src="vegetables.jpeg" alt="" />
+          <span class="desc">Vegetables</span>
+        </div>
+
+        <div class="grocery-items">
+          <img src="juices.jpeg" alt="" />
+          <span class="desc">Smoothies</span>
+        </div>
+
+        <div class="grocery-items">
+          <img src="snacks.jpeg" alt="" />
+          <span class="desc">Snacks</span>
+        </div>
+
+        <div class="grocery-items">
+          <img src="dry-fruits.jpeg" alt="" />
+          <span class="desc">Dry Fruits</span>
+        </div>
+
+        <div class="grocery-items">
+          <img src="spicies.jpeg" alt="" />
+          <span class="desc">Spicies</span>
+        </div>
+
+        <div class="grocery-items">
+          <img src="Pulses.jpeg" alt="" />
+          <span class="desc">Pulses</span>
+        </div>
+
+        <div class="grocery-items">
+          <img src="pickle.jpeg" alt="" />
+          <span class="desc">Pickle</span>
+        </div>
+      </div>
+    </section>
+<!-- <===================== Store ====================> -->
+    <section id="Store">
+      <h1 class="heading">Stores</h1>
+      <div class="store-items">
+        <!-- 1 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="kit-kat.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Kit Kat : Espresso</h4>
+            <h4 class="price">₹240</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="harpic.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Harpic</h4>
+            <h4 class="price">₹240</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="detttol-hand-wash.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Dettol Hand Wash</h4>
+            <h4 class="price">₹240</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="dairy-milk.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Dairy milk</h4>
+            <h4 class="price">₹20</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="Ashirwad-atta.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Ashirwad Atta</h4>
+            <h4 class="price">₹240</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="sugar.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Sugar</h4>
+            <h4 class="price">₹240</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="pasta.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Pasta</h4>
+            <h4 class="price">₹240</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="MDH-Garam-masala.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">MDH Garam masala</h4>
+            <h4 class="price">₹240</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 9 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="soffola-total.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Soffola Total</h4>
+            <h4 class="price">₹240</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 10 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="peanut-butter.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Peanut Butter</h4>
+            <h4 class="price">₹240</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+<!-- <===================== offers ====================> -->
+    <section id="offers">
+      <h1 class="heading">Offers <img src="special-offer.png" alt=""></h1>
+      <div class="offers-section">
+        <div class="store-items">
+        <!-- 1 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="kit-kat.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Kit Kat : Espresso</h4>
+            <h4 class="price"><strike>₹240</strike> ₹170</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="harpic.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Harpic</h4>
+            <h4 class="price"><strike>₹240</strike> ₹170</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="detttol-hand-wash.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Dettol Hand Wash</h4>
+            <h4 class="price"><strike>₹240</strike> ₹170</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="dairy-milk.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Dairy milk</h4>
+            <h4 class="price">₹20</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="Ashirwad-atta.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Ashirwad Atta</h4>
+            <h4 class="price"><strike>₹240</strike> ₹170</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="sugar.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Sugar</h4>
+            <h4 class="price"><strike>₹240</strike> ₹170</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="pasta.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Pasta</h4>
+            <h4 class="price"><strike>₹240</strike> ₹170</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="MDH-Garam-masala.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">MDH Garam masala</h4>
+            <h4 class="price"><strike>₹240</strike> ₹170</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 9 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="soffola-total.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Soffola Total</h4>
+            <h4 class="price"><strike>₹240</strike> ₹170</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        <!-- 10 -->
+        <div class="items">
+          <div class="items-img">
+            <img src="peanut-butter.png" alt="" />
+          </div>
+          <div class="desc">
+            <h4 class="item-name">Peanut Butter</h4>
+            <h4 class="price"><strike>₹240</strike> ₹170</h4>
+            <br />
+            <button>Order now</button>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+    </section>
+<!-- <===================== help====================> -->
+    <section id="help">
+        <h1 class="heading">Help </h1>
+        <div class="contact-section">
+            <div class="contact-us">
+             <h2>Ask for help</h2>
+             <form action="">
+             <input type="text" placeholder="Name" required>
+             <input type="number" placeholder="Mobile no." required> 
+             <input type="email" placeholder="Email" required>
+             <textarea name="" id="" placeholder="Send a message.."></textarea>
+            <div class="send-message"><button type="submit">Send Message</button></div>
+            </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="company">
+            <h3>Company</h3>
+            <ul>
+                <li>About us</li>
+                <li>Our Servies</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="get-help"> 
+            <h3>Get Help</h3>
+            <ul>
+                <li>FAQ</li>
+                <li>Shipping</li>
+                <li>Returns</li>
+                <li>Order Status</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h3>Contact us</h3>
+            <ul>
+                <li>+91 9818171023</li>
+                <li>ayushsingh1187@gmail.com</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Follow us on :-</h3>
+            <div class="follow-us">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <hr>
+        </div>
+    </footer>
+    <hr>
+    <div class="copyright"><h4>© copyright 2025 | HomeCart</h4></div>
+  </body>
+  <script src="script.js"></script>
+</html>

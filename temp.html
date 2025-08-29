@@ -1,0 +1,92 @@
+<!-- .navbar-2 ul {
+    margin: 0;
+  padding: 0;
+    position: absolute;       /* fixed to viewport */
+    top: 70px;             /* below main navbar */
+    left: 0;              /* start off-screen */
+    width: 180px;          /* compact width */
+    max-width: 80vw;       /* responsive on smaller devices */
+    flex-direction: column;
+    /* background: white; */
+    padding: 10px 0;
+    border-left: 1px solid grey;
+    /* box-shadow: -2px 0 10px rgba(0,0,0,0.2); */
+    transform: translateX(-100%);  /* hidden initially */
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+  }
+
+  /* Active menu → slide in */
+  .navbar-2 ul.active {
+    transform: translateX(0);
+  }
+
+.navbar-2 ul li {
+  text-align: left;
+  padding: 12px 20px;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: -1px;  /* Overlap top border with previous item */
+}
+
+  .navbar-2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: block;
+  } -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      *{
+        margin:0;
+        padding:0;
+      }
+      .navbar-2{
+        position:absolute;
+        top:0;
+        left:0;
+        width:180px;
+        max-width: 80vw;
+        transform: translateX(-100%);  /* hidden initially */
+        transition: transform 0.3s ease-in-out;
+        z-index: 1000;
+      }
+      .navbar-2 ul{
+        border:1px solid black;
+        padding:5px;
+        width:150px;
+        display:flex;
+        flex-direction: column;
+      }
+      .navbar-2 ul li{
+        padding:10px;
+        text-align: left;
+        list-style-type: none;
+        border-bottom:1px solid black;
+      }
+      .navbar-2 ul li a {
+        text-decoration: none;
+        color:black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar-2">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Store</a></li>
+        <li><a href="">grocery</a></li>
+        <li><a href="">help</a></li>
+        <li><a href="">offers</a></li>
+      </ul>
+    </div>
+  </body>
+  </html>
